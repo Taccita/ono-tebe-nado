@@ -74,7 +74,7 @@ line-height: 24.3px; /* 135% */
 .cover{
   position: relative;
   margin: 81px 9px 0;
-  background-image: url(../images/cover.png);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   width: 100% auto;
   height: 100% auto;
@@ -222,13 +222,13 @@ text-transform: uppercase;
 
 .card_type_film{
   position: relative;
-  background-image: url(../images/card-girl.png);
+  background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
 }
 
 .card_type_book{
     position: relative;
-  background-image: url(../images/card-uliss.png);
+  background-image: url(../images/card-lot-02.jpg);
   background-size: cover; 
 }
 
