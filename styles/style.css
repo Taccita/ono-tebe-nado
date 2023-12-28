@@ -69,7 +69,6 @@ line-height: 24.3px; /* 135% */
     position: absolute;
     width: 1082px;
     height: 745px; 
-
 }
 
 .cover {
@@ -135,7 +134,6 @@ text-align: left;
 
 .letter-spacing-extended-59 {
   letter-spacing: 59px; 
-
 }
 
 .cover__description {
@@ -232,7 +230,6 @@ text-transform: uppercase;
     position: relative;
   background-image: url(../images/card-lot-02.jpg);
   background-size: cover; 
-
 }
 
 .card_type_picture {
