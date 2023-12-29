@@ -81,22 +81,21 @@ line-height: 24.3px; /* 135% */
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%; /* 115px */
-  letter-spacing: 30px;
   text-transform: uppercase;
-  padding: 162px 58px 0 51px ;
-  letter-spacing: -.3em;
+  padding: 162px 0 0 51px ; 
+  line-height: 115%;  
+  
 }
 
 .aligned-text {
-display: block;
-text-align: left;
+  display: block;
+  text-align: left;
 }
 
 .aligned-text_center {
   display: block;
   text-align: center;
-  padding-right: 79px;
+  padding-right: 48px;
   padding-top: 15px;
   line-height: 100%;
 }
@@ -106,33 +105,25 @@ text-align: left;
   text-align: right;
   line-height: 100%;
   padding-top: 20px;
-  padding-right: 24px;
+  padding-right: 46px; 
 }
+
+
 
 .letter-spacing-extended {
-  letter-spacing: 30px;
-}
-
-.letter-spacing-extended-type_2 {
   letter-spacing: 60px;
 }
 
-.letter-spacing-extended-type_3 {
-  letter-spacing: 57px;
+.no-letter-spacing {
+  letter-spacing: 0;
 }
 
-.letter-spacing-extended-type_4 {
-  letter-spacing: 28px;
-}
-
-.letter-spacing-extended-type_5 {
-  letter-spacing: 59px; 
-}
-
-.cover__description {
-  padding: 131px 40px 49px 82px;
+.cover__description{
+  padding-left: 81px;
+  padding-top: 133px;
+  padding-bottom: 46px;
+  gap: 70px;
   display: flex;
-  gap: 68px;
 }
 
 .cover__description-text {
@@ -145,7 +136,7 @@ font-family: Raleway, Arial,sans-serif;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: 28px; /* 127.273% */
+line-height: 28px; 
 text-transform: uppercase;
 word-spacing: 17.3px;
 }
@@ -194,7 +185,7 @@ text-transform: uppercase;
 
 .card {
   width: 328px;
-  height: 554px;
+  min-height: 554px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -208,7 +199,6 @@ text-transform: uppercase;
 }
 
 .card_type_film {
-  position: relative;
   background-image: url(../images/card-lot-01.jpg); 
 }
 
